@@ -1,0 +1,29 @@
+{
+  "name": "studentdesk",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^0.19.0",
+    "moment": "^2.24.0",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0",
+    "react-moment": "^0.9.2",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.1.1",
+    "react-router-dom": "^5.1.1",
+    "react-scripts": "0.9.5",
+    "react-slick": "^0.25.2",
+    "redux": "^4.0.5",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
