@@ -24,7 +24,7 @@ function NavBar(props) {
         </div>
         <div>
           <div class="navbar-right">
-            <Badge badgeContent={props.data.length} color="error">
+            <Badge badgeContent={cartItems.length} color="error">
               <AddShoppingCart
                 style={{ fontSize: "30px", alignSelf: "center" }}
                 onClick={() => setCartOpen(true)}
@@ -40,8 +40,5 @@ function NavBar(props) {
   );
 }
 
-const mapStateToProps = (state) => ({
-  data: state.cart.cartItemsReducer.cartItems,
-});
 
-export default connect(mapStateToProps, 0)(NavBar);
+export default NavBar;
